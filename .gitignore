@@ -1,0 +1,28 @@
+# Ignore files with extensions .pyc and .pyo
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore installed libraries and dependencies
+env/
+lib/
+include/
+bin/
+
+# Ignore settings files
+*.ini
+*.cfg
+*.conf
+
+# Ignore the log file
+*.log
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore editor settings files
+.idea/
+.vscode/
