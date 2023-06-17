@@ -3,6 +3,9 @@ from newsapi import NewsApiClient
 from GoogleNews import GoogleNews
 import random
 import os
+from dotenv import load_dotenv, find_dotenv
+
+load_dotenv(find_dotenv())
 
 bot = telebot.TeleBot(os.getenv('TOKEN'))
 newsapi = NewsApiClient(os.getenv('api_key'))
