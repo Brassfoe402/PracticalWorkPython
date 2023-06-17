@@ -1,7 +1,7 @@
 
-*.pyc
-*.pyo
-*.env
+.pyc
+.pyo
+.env
 
 # Ignore virtual environment
 venv/
@@ -13,16 +13,16 @@ include/
 bin/
 
 # Ignore settings files
-*.ini
-*.cfg
-*.conf
+.ini
+.cfg
+.conf
 
 # Ignore the log file
-*.log
+.log
 
 # Ignore database files
-*.db
-*.sqlite
+.db
+.sqlite
 
 # Ignore editor settings files
 .idea/
