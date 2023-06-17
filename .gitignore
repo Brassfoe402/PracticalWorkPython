@@ -1,4 +1,4 @@
-# Ignore files with extensions .pyc and .pyo
+
 *.pyc
 *.pyo
 *.env
