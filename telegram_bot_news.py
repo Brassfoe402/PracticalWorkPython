@@ -4,7 +4,7 @@ from GoogleNews import GoogleNews
 import random
 import os
 
-bot = telebot.TeleBot('6181407907:AAGMhYmhmQyZV1bUpsbJ40fVJJ-29GVU1WI')
+bot = telebot.TeleBot(os.getenv('TOKEN'))
 newsapi = NewsApiClient(api_key='79a94d6eae0a4829adfc9c839f157bb1')
 googlenews = GoogleNews(lang='ru')
 
