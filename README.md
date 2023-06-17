@@ -11,5 +11,6 @@
 TOKEN - Телеграм-токен бота
 
 Установка внешних пакетов
+
 Устанавливаем все внешние пакеты из файла requirements.txt:
 pip install -r requirements.txt
