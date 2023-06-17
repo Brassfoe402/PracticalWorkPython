@@ -2,6 +2,7 @@ import telebot
 from newsapi import NewsApiClient
 from GoogleNews import GoogleNews
 import random
+import os
 
 bot = telebot.TeleBot('6181407907:AAGMhYmhmQyZV1bUpsbJ40fVJJ-29GVU1WI')
 newsapi = NewsApiClient(api_key='79a94d6eae0a4829adfc9c839f157bb1')
