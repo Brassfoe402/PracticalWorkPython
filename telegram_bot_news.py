@@ -5,7 +5,7 @@ import random
 import os
 
 bot = telebot.TeleBot(os.getenv('TOKEN'))
-newsapi = NewsApiClient(api_key='79a94d6eae0a4829adfc9c839f157bb1')
+newsapi = NewsApiClient(os.getenv('api_key'))
 googlenews = GoogleNews(lang='ru')
 
 # функция, которая отправляет сообщение с кнопками
